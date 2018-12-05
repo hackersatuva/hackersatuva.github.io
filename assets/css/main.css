@@ -3549,8 +3549,9 @@
 
 			#banner {
 				padding: 7em 3em 5em 3em ;
-				height: auto;
-				min-height: 0;
+				height: -webkit-fill-available;
+				height: -moz-available;          /* WebKit-based browsers will ignore this. */
+				height: fill-available;				min-height: 0;
 			}
 
 				#banner h2 {
