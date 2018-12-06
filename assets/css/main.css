@@ -3786,9 +3786,10 @@
 		background-size: cover;
 	}
 	body.is-mobile.landing #banner{
-		height: -webkit-fill-available;
-		height: -moz-available;          /* WebKit-based browsers will ignore this. */
-		height: fill-available;				
+		/* height: -webkit-fill-available;
+		height: -moz-available;   
+		height: fill-available;				 */
+		height: 100vh;
 	}
 
 	body.is-mobile.landing #footer {
