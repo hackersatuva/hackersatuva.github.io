@@ -1278,36 +1278,6 @@
 		@include vendor('transition', 'opacity #{_duration(menu)} ease');
 		opacity: 1;
 		padding-top: 3em;
-
-		.themes {
-			text-align: center;
-			display: grid;
-			grid-template-columns: 1fr 1fr;
-			justify-items: center;
-			row-gap: 24px;
-		}
-		
-		@media screen and (max-width: 736px) {
-			.themes {
-				grid-template-columns: 1fr;
-			}
-		}
-		
-		.theme {
-			display: inline-block;
-			zoom: 1;
-			*display: inline;
-			width: 25%;
-			padding-top: 75px;
-			margin-left: 20px;
-			margin-right: 20px;
-			border-radius: 50%;
-			border-style: solid;
-			border-width: 5px;
-			border-color: white;
-			width: 350px;
-			height: 350px;
-		}
 		
 		.theme-info {
 			padding-top: 20px;
